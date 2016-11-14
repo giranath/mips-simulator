@@ -4,10 +4,11 @@
 #include "register.hpp"
 
 namespace mips {
+
 /**
  * A read-write register
  */
-class normal_register : public cpu_register {
+class normal_register : public cpu_register_32 {
 public:
 	/**
 	 * Initializes a register
